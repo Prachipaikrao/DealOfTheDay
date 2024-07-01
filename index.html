@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>
+    envatomarket
+ </title>
+    
+    <title>Side by Side Divs</title>
+    <style>
+    ul 
+    {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(56, 51, 51);
+    }
+    li 
+    {
+        float: right;
+        display: block;
+        height: 40px;
+        padding: 8px;
+        background-color: rgb(56, 51, 51);
+    }
+    .button
+    {
+        margin-top:5px; 
+        height: 30px ;
+        width:100px;
+        font-size: 20px;
+        background-color: #12AD2B ;
+        color: white;
+        text-decoration: none;
+        border: #12AD2B;
+    }
+    .par 
+    {
+      width: 100%;
+      overflow: hidden; /* Clearfix */
+      margin-left: 10px;
+      padding: 20px;
+    }
+    .left, .right, .right1 ,.right2{
+       
+            float: left;
+            margin: 1%;
+            height: 500px;
+            width: 300px;
+            border: 1px solid #acacac;
+            box-sizing: border-box; /* Prevents padding and border from affecting the width */
+            position: relative;
+         
+        }
+        .left {
+            background-color: #e8e8e8;
+        }
+        .right {
+            background-color:#e8e8e8;
+        }
+        .right1 {
+            background-color:#e8e8e8;
+        }
+        .right2 {
+            background-color:#e8e8e8;
+        }
+
+
+        .bottom-section {
+          
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 2px;
+            overflow: hidden; /* Clearfix */
+            box-sizing: border-box;
+            background-color:white;
+            height: 200px;
+            width: 298px;
+           
+          
+        }
+
+        .bottom-section1 {
+          
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          padding: 2px;
+          overflow: hidden; /* Clearfix */
+          box-sizing: border-box;
+          background-color:white;
+          height: 200px;
+          width: 298px;
+         
+        
+      }
+
+      .bottom-section2 {
+          
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          padding: 2px;
+          overflow: hidden; /* Clearfix */
+          box-sizing: border-box;
+          background-color:white;
+          height: 200px;
+          width: 298px;
+         
+        
+      }
+
+      .bottom-section3 {
+          
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          padding: 2px;
+          overflow: hidden; /* Clearfix */
+          box-sizing: border-box;
+          background-color:white;
+          height: 200px;
+          width: 298px;
+         
+        
+      }
+
+        .new{
+            border-radius: 20px;
+            background-color:chocolate;
+            margin:2px;
+            width: 50px;
+           
+            
+        }
+        .circle {
+            width: 50px;
+            height: 50px;
+            background-color: chocolate;
+            border-radius: 50%;
+            float: left;
+            
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .stars {
+            display: inline-block;
+            font-size: 24px;
+            color: gold;
+           
+        }
+        .stars .filled {
+            color: gold;
+           
+          
+        }
+        .stars .empty {
+            color: lightgray;
+          
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+    <aside>
+    <nav>
+        <ul>
+            <li><Button class="button">Buy now</Button></li>
+            <h2 style=" margin-left:2%;color:  white;">envato<span style=" color:  #12AD2B;">market</span></h2>  
+          </ul>
+    </nav>
+</aside>
+<div>
+      <h2 style="text-align: center;">DEAL OF THE DAY </h2>
+    
+      <hr style="color: 2px solid chocolate; width: 100px ;">
+    </div>
+
+    <div class="par">
+        <div class="left">
+          
+            <div class="new"><p style="color: white; margin-left: 8px;">New</p></div>
+            <img src="SplendidDiamond.png" alt="Splendid Diamond Earring" >
+            <div class="bottom-section">
+                <div>
+                <div class="circle" ><P style="color: white; font-size: 12px; text-align: center;">00<br>DAYS</P></div>
+                 <div class="circle"><P style="color: white; font-size: 12px; text-align: center;">00<br>HRS</P></div>
+                 <div class="circle"><P style="color: white; font-size: 12px; text-align: center;">00<br>MINS</P></div>
+                 <div class="circle"><P style="color: white; font-size: 12px; text-align: center;">00<br>SECS</P></div>
+                </div><br><br>
+                     <div style="margin: 5px;"> <p><h2 style="text-align: center; padding: 5px;">Splendid Diamond</h2></p>
+                    </div>
+                 <div style="margin-left: 20px; text-align: center; ">
+                    <div class="stars">
+                        <span class="filled">&#9733;</span>
+                        <span class="filled">&#9733;</span>
+                        <span class="filled">&#9733;</span>
+                        <span class="empty">&#9733;</span>
+                        <span class="empty">&#9733;</span>
+                        <span style="color: gray;">(3)</span>
+                  </div>
+                  <div>
+                    <p> <span style="color: gray; font-size: 20px;"><s>$65</s></span>
+                            <span> </span>
+                            <span style="color: orange; font-size: 20px;">$45</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="new"><p style="color: white; margin-left: 8px;">New</p></div>
+            <img src="DropEarring.jpg" alt="Drop Earring" >
+            <div class="bottom-section1">
+                <div>
+                <div class="circle" ><P style="color: white; font-size: 12px; text-align: center;">00<br>DAYS</P></div>
+                 <div class="circle"><P style="color: white; font-size: 12px; text-align: center;">00<br>HRS</P></div>
+                 <div class="circle"><P style="color: white; font-size: 12px; text-align: center;">00<br>MINS</P></div>
+                 <div class="circle"><P style="color: white; font-size: 12px; text-align: center;">00<br>SECS</P></div>
+                </div><br><br>
+                     <div style="margin: 5px;"> <p><h2 style="text-align: center; padding: 5px;">Drop Earring</h2></p>
+                    </div>
+                 <div style="margin-left: 20px; text-align: center; ">
+                    <div class="stars">
+                        <span class="filled">&#9733;</span>
+                        <span class="filled">&#9733;</span>
+                        <span class="filled">&#9733;</span>
+                        <span class="empty">&#9733;</span>
+                        <span class="empty">&#9733;</span>
+                        <span style="color: gray;">(3)</span>
+                    </div>
+                    <div>
+                         <p> <span style="color: gray; font-size: 20px;"><s>$65</s></span>
+                            <span> </span>
+                            <span style="color: orange; font-size: 20px;">$45</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right1">
+            <div class="new"><p style="color: white; margin-left: 8px;">New</p></div>
+            <img src="StudEarrings.jpg" alt="Stud Earring" >
+            <div class="bottom-section2">
+                <div>
+                <div class="circle" ><P style="color: white; font-size: 12px; text-align: center;">00<br>DAYS</P></div>
+                 <div class="circle"><P style="color: white; font-size: 12px; text-align: center;">00<br>HRS</P></div>
+                 <div class="circle"><P style="color: white; font-size: 12px; text-align: center;">00<br>MINS</P></div>
+                 <div class="circle"><P style="color: white; font-size: 12px; text-align: center;">00<br>SECS</P></div>
+                </div><br><br>
+                     <div style="margin: 5px;"> <p><h2 style="text-align: center; padding: 5px;">Stud Earrings</h2></p>
+                    </div>
+                 <div style="margin-left: 20px; text-align: center; ">
+                    <div class="stars">
+                        <span class="filled">&#9733;</span>
+                        <span class="filled">&#9733;</span>
+                        <span class="filled">&#9733;</span>
+                        <span class="empty">&#9733;</span>
+                        <span class="empty">&#9733;</span>
+                        <span style="color: gray;">(3)</span>
+                    </div>
+
+                    <div>
+
+                        <p> <span style="color: gray; font-size: 20px;"><s>$65</s></span>
+                            <span> </span>
+                            <span style="color: orange; font-size: 20px;">$45</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right2">
+            <div class="new"><p style="color: white; margin-left: 8px;">New</p></div>
+            <img src="DazzlingEarring.jpg" alt="Dazzling Earring" >
+            <div class="bottom-section3">
+                <div>
+                <div class="circle" ><P style="color: white; font-size: 12px; text-align: center;">00<br>DAYS</P></div>
+                 <div class="circle"><P style="color: white; font-size: 12px; text-align: center;">00<br>HRS</P></div>
+                 <div class="circle"><P style="color: white; font-size: 12px; text-align: center;">00<br>MINS</P></div>
+                 <div class="circle"><P style="color: white; font-size: 12px; text-align: center;">00<br>SECS</P></div>
+                </div><br><br>
+                     <div style="margin: 5px;"> <p><h2 style="text-align: center; padding: 5px;">Dazzling Earring </h2></p>
+                    </div>
+                 <div style="margin-left: 20px; text-align: center; ">
+                    <div class="stars">
+                        <span class="filled">&#9733;</span>
+                        <span class="filled">&#9733;</span>
+                        <span class="filled">&#9733;</span>
+                        <span class="empty">&#9733;</span>
+                        <span class="empty">&#9733;</span>
+                        <span style="color: gray;">(3)</span>
+                    </div>
+
+                    <div>
+
+                        <p> <span style="color: gray; font-size: 20px;"><s>$65</s></span>
+                            <span> </span>
+                            <span style="color: orange; font-size: 20px;">$45</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
